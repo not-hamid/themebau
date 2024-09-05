@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    height: 50vh;
+    border: solid grey 2px;
+}
+.two{
+    height: 50vh;
+}
+.three{
+    height: 50vh;
+}

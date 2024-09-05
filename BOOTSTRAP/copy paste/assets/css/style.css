@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body , html{
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+}
+ .emp{
+    height: 1vh;
+    width: 8%;
+    border-radius: 30px;
+    background-color: black;
+    position: relative;
+    bottom: 46%;
+    left: 130%;
+    
+}
+.btn:hover .emp{
+    animation: bouncy .5s linear infinite;
+}
+ @keyframes bouncy {
+    0%{transform: translateY(0);}
+    50%{ transform: translateY(-12px);}
+      
+      100%{transform: translateY(0);}
+
+ }
+  
+
+.d-flex button{
+    padding: 11px 55px 11px 30px;
+}
+
+
+
+/* .row .col{
+    height: 80vh;
+   
+} */
+.cards .img{
+    transition: transform .4s ease-in-out;
+    
+    
+}
+.cards img:hover{
+   cursor: pointer;
+   transition: .4s;
+   transform: translateY(-20px);
+}
+.main3{
+    height: 190vh;
+}
+.pr img{
+    
+    position: relative;
+    left: 13rem;
+    bottom: 4rem;
+}
+.view button{
+    background-color: black;
+    padding: 11px 56px 11px 33px;
+    color: white;
+} 
+.emp1{
+    height: 1vh;
+    width: 8%;
+    border-radius: 30px;
+    background-color: white;
+   position: relative;
+    left: 130%;
+    bottom: 13px;
+}
+.btn:hover .emp1{
+    animation: bouncy .5s linear infinite;
+}
+ @keyframes bouncy {
+    0%{transform: translateY(0);}
+    50%{ transform: translateY(-12px);}
+      
+      100%{transform: translateY(0);}
+
+ }
+ .content{
+    margin-top: 4rem;
+    
+ }
+ .content h1{
+    width: 80%;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+
+ }
+ .content p{
+    width: 60%;
+    position: relative;
+    left: 5rem;
+ }
+ .view{
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+ }
+ .pr{
+    width: 60%;
+    height: 35%;
+ }
+ .left .row img{
+    transition: .4s ;
+ }
+ .row img:hover{
+    transform: translateY(-20px);
+ }
+ .main4{
+    height: 130vh;
+    background-color: black;
+ }
+
+
+
+  
+  .carousel-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    max-height: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+  .main5{
+    height: 70vh;
+  }
+  .p1{
+    margin-top: 7rem;
+    margin-left: 7rem;
+    width: 60%;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .p2{
+    margin-top: 7rem;
+    margin-left: 7rem;
+    width: 60%;
+    font-size: 1rem;
+    }
+
+
+
+  
+  .carousel-cell {
+    width: 66%;
+    height: 400px;
+    margin-right: 10px;
+    
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    max-height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+
+ .main8{
+    height: 100vh;
+    background-color: #f0f0f0;
+ }
+ .paraa{
+    margin-top: 10rem;
+    left: 2rem;
+ }
+ .paraa h2{
+    width:65% ;
+    font-weight: bolder;
+ }
+ .paraa p{
+    width: 70%;
+ }
+ .main9{
+    height: 80vh;
+ }
+ .main10{
+    background-color: black;
+    height: 90vh;
+ }
+ .main10 .row{
+    width: 100%;
+    position: relative;
+    top: 33%;
+    left: 4rem;
+    color: white;
+ }
+ .main11{
+    height: 95vh;
+ }
+ .main11 h1{
+    font-size: 98px;
+    color: black;
+    position: relative;
+    top: 42%;
+    left: 12%;
+    font-weight: 500;
+ }
+ .hr{
+    width: 53%;
+    position: relative;
+    top: 40%;
+    left: 12%;
+    border: 1px solid black;
+ }
+ .main11 i{
+    font-size: 80px;
+    
+    float: right;
+    position: relative;
+    top: 22%;
+    right: 10%;
+ }

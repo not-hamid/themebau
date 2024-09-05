@@ -1,0 +1,242 @@
+body , html{
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(37, 39, 42);
+}
+
+#anchor li a{
+     color: white;
+}
+#fsize{
+    font-size: 1.17rem;
+}
+#colour{
+  background-color: black;
+}
+#fsizee {
+    font-size: 1.5rem;
+}
+#dropa a{
+  color: black;
+}
+#h1{
+  font-weight: 400;
+}
+nav .butn1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 50px;
+    gap: 15px;
+}
+.atag1{
+    text-decoration: none;
+    color: black;
+}
+
+.odiv1{
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+}
+
+.butn1:hover .odiv1{
+    animation: bounce .5s linear infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(-12px);
+    }
+    75%{
+        transform: translateY(-12px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.cards img{
+    transition: transform 0.3s ease-in-out;
+}
+.cards img:hover{
+      cursor: pointer;
+      transition: 0.3s;
+      transform: translateY(-20px)
+}
+.ad1{
+    position: relative;
+    left: 15rem;
+    bottom: 4.5rem;
+}
+.butn2{
+    width: 26%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 16px 20px;
+    justify-content: space-between;
+    color: white;
+}
+.odiv2{
+    height: 6px;
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+    right: 25px;
+}
+.butn2:hover .odiv2{
+    animation: bouncy .5s linear infinite;
+    cursor: pointer;
+}
+@keyframes bouncy {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-12px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.carousel-celll1 {
+    width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-celll2 {
+    width: 28%;
+    height: 200px;
+    margin-top: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-celll3 {
+    width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-celll4 {
+    width: 28%;
+    height: 200px;
+    margin-top: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-celll5 {
+    width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+
+.box img{
+    transition: transform 0.3s ease-in-out;
+}
+.box img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-25px);
+}
+.grid5 img{
+    transition: transform 0.3s ease-in-out;
+}
+.grid5 img:hover{
+      cursor: pointer;
+      transition: 0.3s;
+      transform: translateY(-20px)
+}
+.grid5{
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+.carousel-cell1 {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell2 {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell3 {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell4 {
+    width: 28%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+  }
+  .ccss1{
+    background-color: whitesmoke;
+  }
+  .font1{
+    font-size: 3rem;
+  }
+  .font2{
+    font-size: 1.3rem;
+  }
+  .arrow{
+    font-size: 3.5rem;
+    margin-top: 4.5rem;
+  }
+  .gett{
+    font-weight: 600;
+  }
